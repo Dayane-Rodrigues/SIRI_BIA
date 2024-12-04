@@ -1,0 +1,181 @@
+
+URL: https://inteligenciaartificial.inf.ufg.br/
+Title: Inteligência Artificial - Instituto de Informática - UFG
+Description: undefined
+Keywords: undefined
+
+Toggle navigation teste
+
+Home
+O curso
+Carreira
+Parcerias
+Como ingressar
+Reportagens
+Interno
+Bacharelado em Inteligência Artificial
+Computação Empreendedorismo Resolução de problemas Visão Computacional Linguagem Natural IA para Robótica Veículos autônomos Gameficação Ciência de dados Mineração de dados Big Data
+O curso tem o objetivo de formar profissionais aptos a resolver problemas complexos por meio da Inteligência Artificial, incluindo sistemas embarcados e autônomos, de forma inovadora e empreendedora.
+
+O curso
+O que eu vou estudar?
+i. O curso tem o objetivo de formar profissionais aptos a resolver problemas complexos por meio da Inteligência Artificial, incluindo sistemas embarcados e autônomos, de forma inovadora e empreendedora. Para atingir esse objetivo o aluno terá conteúdos de Fundamentos em computação e matemática, formação de mentalidade, técnicas e metodologias de Inteligência Artificial e uma fase final de Integração, que se espera que seja cumprida ao longo do curso.
+
+    
+
+ii. Anteriormente as habilidades necessárias para o exercício de Inteligência Artificial eram adquiridas por egressos de outros cursos de graduação, em especial durante os cursos de pós-graduação stricto sensu na área de Computação (Mestrado e Doutorado). Nesses casos, a apropriação de habilidades ocorre de forma parcial, pois não há espaço em tais cursos para cobrir adequadamente essa extensa área. Com o crescimento da aplicabilidade e uso das soluções de Inteligência Artificial, houve a necessidade da criação de uma formação já específica em nível de graduação.
+    
+
+iii. O Bacharelado em Inteligência Artificial nasce dos anseios de empresas e organizações em desenvolver produtos e soluções em ambientes predominantemente digitais. A era digital tem provocado uma demanda crescente por soluções ditas inteligentes que tem por função aumentar a produtividade e promover soluções inovadoras.
+    
+
+iv. A grade curricular pode ser vista na figura abaixo.
+Grade Curricular
+ 
+    
+
+
+
+Como eu vou estudar?
+O curso foi projetado para aliar o ensino tradicional por meio de disciplinas com a vivência em projetos com empresas e órgãos parceiros. Um número significativo de projetos de pesquisa, desenvolvimento e inovação (P,D&I) foram executados ou estão em desenvolvimento. Os projetos proporcionam oportunidades para alunos vivenciarem a resolução de problemas na prática. Projetos de diferentes campos de aplicação são desenvolvidos, tais como, projetos para saúde, logística, segurança, agronegócio, energia, publicidade, agronegócio, dentre vários. Logo, o aluno poderá acessar e avaliar diferentes frentes de atuação.
+
+
+Aprendizado por projetos
+Além das disciplinas tradicionais a participação em projetos com empresas utiliza a abordagem PBL (Problem Based Learning ou Project Based Learning), por meio da qual os discentes resolvem na prática (hands-on) problemas similares aos que enfrentarão nos seus futuros trabalhos. Assim fazendo, os projetos nos quais os(as) alunos(as) estão inseridos se constituem como ambientes práticos ideais para a formulação das práticas hands-on. A abordagem PBL proporciona a vivência em problemas reais a serem resolvidos pelos(as) discentes durante o desenvolvimento e/ou o aprimoramento das suas habilidades socioemocionais e técnicas.
+
+
+Capacitação 4.0
+O Programa EMBRAPII Capacitação 4.0 está diretamente associado ao Bacharelado em Inteligência Artificial, dividido em duas fases. A primeira fase tem por objetivo prover a capacitação nas chamadas soft skills via PBL (Problem Based Learning ou Project Based Learning) a discentes em formação. A formação visa a atuação dos(as) alunos(as) em projetos de inovação aplicada, voltada para a indústria. Em caso de desempenho escolar acima da média o aluno poderá iniciar diretamente na fase de participação em atividades em projetos de inovação tecnológica financiados.
+
+
+Múltiplas habilidades
+A participação em projetos visa desenvolver a tríade de conhecimento, habilidades e atitudes (CHA) sendo manifestado na forma de pensar, sentir e agir do aluno.
+
+    
+
+Conhecimento: SABER - compreensão do problema que se deseja resolver, compreensão dos conteúdos relacionados, consultas bibliográficas;
+    
+
+Habilidades: SABER FAZER - Trabalho em equipe, comunicação, desenvolvimento de projeto, análise crítica, estudo independente;
+    
+
+Atitudes: QUERER FAZER - Comprometimento, ética, proatividade, empatia, flexibilidade, colaboração e liderança.
+Infraestrutura do curso
+O Bacharelado em Inteligência Artificial possui a maior e mais moderna infraestrutura para Inteligência Artificial do Brasil. Destaca-se abaixo alguns equipamentos.
+
+
+|
+Laboratório de veículo autônomo.
+Encontra-se em fase de montagem o Laboratório de Veículos Autônomos que irá dispor de um veículo autônomo nível 2 totalmente “drive-by-wire”. O veículo desenvolvido em parceria com a Street Drone da Inglaterra e com a Renault, será utilizado para fins de ensino de alunos de graduação e pós-graduação e em projetos de inovação nos temas de mobilidade, navegação e logística.
+
+
+|
+Robôs
+O Bacharelado conta ainda com robôs de menor porte do tipo humanoide e quadrupede. Estes robôs são utilizados principalmente em tarefas de inspeção e monitoramento de ambientes. Em 2023 será adquirido um humanóide de tamanho real.
+
+
+|
+Super computadores
+O Bacharelado dispões de dois supercomputadores equipados com as mais modernas GPUs com capacidade de processamento de centenas de milhares de computadores convencionais. A aquisição mais recente, DGX-A100-80Gb possui 2Tb de memória RAM, 30Tb de SSD e 8 GPUs do tipo V100 com 80Gb de memória interna. Foram encomendados mais duas máquinas similares do novo modelo H-100 para 2023.
+
+Carreira e Atuação
+A atuação de um profissional de Inteligência Artificial pode ser resumida em um profissional capaz de realizar automações de tarefas por meio de softwares inteligentes. Automação é a capacidade de um componente não natural (seja de hardware ou software) em realizar uma tarefa sem nenhuma ou pouca interferência humana. A automação vem acompanhando o progresso da produtividade humana ao longo da história recente. 
+
+    
+
+Inteligência Artificial é um tipo de tecnologia denominada de propósito geral, de maneira similar ao que a computação se tornou nas últimas décadas. Tecnologias de propósito geral tem como característica sua alta aplicabilidade em diferentes setores econômicos.  
+
+    
+
+Por ser uma carreira nova, as posições de trabalho não possuem uma terminologia unificada. As posições frequentemente são denominadas de desenvolvedor de Inteligência Artificial, Cientista de dados, arquiteto de dados, engenheiro de dados, engenheiro de aprendizado de máquina, dentre outras denominações, especialista em automação inteligente, dentre outras.
+
+    
+
+A carreira de Inteligência Artificial é uma carreira Global, isto é, sua atuação não sofre efeitos de mudança de cidade, estado ou país. Também não depende de regulamentações burocráticas de governos para atuação. Nos últimos anos tornou-se bastante comum a atuação por meio de prestação de serviços para empresas de outros países de forma remota ou semi-presencial. 
+
+    
+
+A atuação acontece em praticamente todos os setores da economia e geralmente estão intimamente ligados ao nível de transformação digital do setor econômico considerado. Alguns estudiosos resumem boa parte da atuação do profissional de Inteligência Artificial a um desenvolvedor que transforma dados em produtos. Quanto mais digital uma atividade econômica, maior a dependência e mais essencial é o uso de Inteligência Artificial. 
+
+Relacionamento com empresas e orgãos de fomento
+O Bacharelado em Inteligência Artificial está intimamente ligado ao Centro de Excelência em Inteligência Artificial (CEIA). O CEIA é o maior e mais relevante centro de pesquisa aplicada e de inovação no tema de IA do Brasil. Nos últimos anos o CEIA executou mais de 50 projetos e captou mais de 60 milhões de reais em recursos financeiros investidos nos projetos.
+
+Algumas das empresas e organizações patrocinadoras das iniciativas de soluções em Inteligência Artificial são:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Como ingressar
+
+
+
+Dados do curso:
+
+
+
+
+
+
+
+
+Reportagens jornalísticas sobre projetos e iniciativas
+Confira abaixo videos e materias jornalisticas sobre projetos de Inteligência Artificial executados ou sobre ações de divulgação.
+
+        
+
+Setembro, 2019 | Reportagem da Revista Exame
+Reportagem da Revista Exame.
+A primeira turma terá 40 vagas e os alunos ingressarão pelo SISU. O curso formará os futuros líderes da área acompanhando um movimento global como o MIT (Instituto de Tecnologia de Massachusetts) e Universidade Carnegie Mellon que também anunciaram o bacharelado na área para 2020.
+
+Leia mais
+
+Dezembro, 2019 | Centro de Excelência em IA
+Reportagem do Ministério de Ciência e Tecnologia
+Goiás lança Centro de Excelência em Inteligência Artificial que vai articular governo, universidade e empresas no desenvolvimento de IA.
+
+Leia Mais
+
+Julho, 2019 | Saúde
+Reportagem do G1 - Solução para saúde.
+Estudante da UFG desenvolve programa que prevê piora no quadro de diabéticos com 96% de precisão. Software analisa pedidos de exames do paciente e faz previsão se aquela pessoa terá um infarto, ou perda das funções renais, por exemplo, nos próximos 6 a 8 meses.
+
+Leia Mais
+
+Outubro, 2017 | Segurança
+Reportagem do G1 - Solução para segurança.
+Instituto de Identificação lança programa de reconhecimento facial para ajudar a esclarecer crimes em Goiás. Com o sistema, é possível coibir fraudes em documentos e identificar vítimas de crimes e até suspeitos.
+
+Leia Mais
+
+Março, 2018 | Saúde
+Reportagem do G1 - Solução para saúde.
+Após a morte do pai, professor de Goiás cria aplicativo que identifica doenças cardíacas de forma simples e rápida. Por meio da escuta dos batimentos do coração, sistema indica se o paciente possui alguma alteração nas válvulas. Objetivo é fazer com que as pessoas iniciem tratamento o quanto antes.
+
+Leia Mais
+
+Dezembro, 2019 | Veículos autônomos
+Reportagem Época Negócios - Robô de entregas autônomas.
+Robô autônomo da Synkar, uma startup de alunos do Instituto de Informática da UFG, iniciará testes de entrega autônoma em 2020. Os testes devem acontecer em ambientes controlados, como shopping centers ou condomínios na cidade de São Paulo. A empresa também estudar oferecer o serviço em Campinas (SP). Composto por rodas e um compartimento para armazenar o pedido, o robô autônomo poderá ser usado para receber entregas em praças de alimentação e levá-las até o motorista, otimizando o tempo de entrega.
+
+Leia Mais
+Clique no link abaixo para visualizar os horários das disciplinas do semestre.
