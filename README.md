@@ -1,5 +1,3 @@
-# Sistema-Inteligente-de-Recupera-o-de-Informacoes-sobre-o-Bacharelado-em-Inteligencia-Artificial
-
 # Sistema Inteligente de Recuperação de Informações sobre o Bacharelado em Inteligência Artificial (BIA)
 
 ## **Dados Disponíveis**
