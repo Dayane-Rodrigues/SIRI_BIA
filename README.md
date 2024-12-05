@@ -7,7 +7,7 @@
 Os dados a serem utilizados no projeto incluem:
 
 - **Projeto Pedagógico do Curso (PPC) do BIA**: Documento que detalha a estrutura curricular, objetivos e diretrizes do curso.  
-- **Entrevista com o Coordenador Anderson Soares**: Transcrição da entrevista no quadro *Guia das Profissões* do Brasil Escola.  
+- **Entrevista com o Coordenador Anderson Soares**: Transcrição da entrevista no quadro *Guia das Profissões* do Brasil Escola. (https://www.youtube.com/watch?v=gsDnrHtUabY)   
 - **Crawler de Fontes Web**: Coleta de informações usando o [UseScraper](https://app.usescraper.com/), com foco em:
   - [Notícia sobre a criação do curso no Exame](https://exame.com/carreira/universidade-vai-oferecer-o-1o-curso-de-inteligencia-artificial-do-brasil/).
   - [Site oficial do BIA na UFG](https://bia.ufg.br/).  
