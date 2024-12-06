@@ -1,20 +1,8 @@
-
-URL: https://jornal.ufg.br/n/119862-ufg-cria-a-primeira-graduacao-em-inteligencia-artificial-do-pais#:~:text=O%20professor%20do%20INF%2C%20Anderson,University%2C%20ambas%20nos%20Estados%20Unidos.&text=Anderson%20acrescenta%20que%20a%20cria%C3%A7%C3%A3o,as%20ci%C3%AAncias%20b%C3%A1sicas%E2%80%9D%2C%20conclui
-Title: UFG cria a primeira graduação em Inteligência Artificial do país | Jornal UFG
-Description: undefined
-Keywords: undefined
-
-
 Brasil
  
 O conteúdo desse portal pode ser acessível em Libras usando o VLibras
 
-Em 04/09/19 15:01.
 40 vagas do curso serão ofertadas já no Sisu de 2020 pelo Instituto de Informática, em Goiânia
-
-Luiz Felipe Fernandes
-
-
 
 O Conselho Universitário da Universidade Federal de Goiás (UFG) aprovou por unanimidade a criação do curso de bacharelado em Inteligência Artificial. Trata-se da primeira graduação nessa modalidade no país. As 40 vagas serão ofertadas já no Sistema de Seleção Unificada (Sisu) de 2020. A graduação em Inteligência Artificial será ministrada pelo Instituto de Informática (INF) da UFG, no Câmpus Samambaia, em Goiânia – unidade acadêmica que já é referência nacional em ensino e pesquisa nessa área.
 
@@ -27,11 +15,3 @@ Com a oferta do novo curso, a UFG se alinha à vanguarda de instituições de en
 Investimento
 
 Anderson acrescenta que a criação do novo curso é resultado de um esforço da UFG, mesmo em um momento de dificuldade financeira para as instituições de ensino superior do país. Segundo o professor, embora a Inteligência Artificial seja uma área que desperte a atenção da iniciativa privada, foi o investimento público que garantiu, durante duas décadas, o desenvolvimento de pesquisas para que a área atingisse o atual nível de maturação. “Isso mostra a importância do financiamento a longo prazo para a pesquisa, incluindo as ciências básicas”, conclui.
-
-Fonte: Secom UFG
-
-Categorias: Tecnologia Destaque
-
-Tweet
-
-Listar Todas Voltar
