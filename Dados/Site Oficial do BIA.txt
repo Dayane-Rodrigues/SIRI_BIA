@@ -1,11 +1,3 @@
-
-URL: https://inteligenciaartificial.inf.ufg.br/
-Title: Inteligência Artificial - Instituto de Informática - UFG
-Description: undefined
-Keywords: undefined
-
-Toggle navigation teste
-
 Home
 O curso
 Carreira
@@ -21,8 +13,6 @@ O curso
 O que eu vou estudar?
 i. O curso tem o objetivo de formar profissionais aptos a resolver problemas complexos por meio da Inteligência Artificial, incluindo sistemas embarcados e autônomos, de forma inovadora e empreendedora. Para atingir esse objetivo o aluno terá conteúdos de Fundamentos em computação e matemática, formação de mentalidade, técnicas e metodologias de Inteligência Artificial e uma fase final de Integração, que se espera que seja cumprida ao longo do curso.
 
-    
-
 ii. Anteriormente as habilidades necessárias para o exercício de Inteligência Artificial eram adquiridas por egressos de outros cursos de graduação, em especial durante os cursos de pós-graduação stricto sensu na área de Computação (Mestrado e Doutorado). Nesses casos, a apropriação de habilidades ocorre de forma parcial, pois não há espaço em tais cursos para cobrir adequadamente essa extensa área. Com o crescimento da aplicabilidade e uso das soluções de Inteligência Artificial, houve a necessidade da criação de uma formação já específica em nível de graduação.
     
 
@@ -32,9 +22,6 @@ iii. O Bacharelado em Inteligência Artificial nasce dos anseios de empresas e o
 iv. A grade curricular pode ser vista na figura abaixo.
 Grade Curricular
  
-    
-
-
 
 Como eu vou estudar?
 O curso foi projetado para aliar o ensino tradicional por meio de disciplinas com a vivência em projetos com empresas e órgãos parceiros. Um número significativo de projetos de pesquisa, desenvolvimento e inovação (P,D&I) foram executados ou estão em desenvolvimento. Os projetos proporcionam oportunidades para alunos vivenciarem a resolução de problemas na prática. Projetos de diferentes campos de aplicação são desenvolvidos, tais como, projetos para saúde, logística, segurança, agronegócio, energia, publicidade, agronegócio, dentre vários. Logo, o aluno poderá acessar e avaliar diferentes frentes de atuação.
@@ -103,44 +90,12 @@ O Bacharelado em Inteligência Artificial está intimamente ligado ao Centro de 
 Algumas das empresas e organizações patrocinadoras das iniciativas de soluções em Inteligência Artificial são:
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Como ingressar
-
-
 
 Dados do curso:
 
-
-
-
-
-
-
-
 Reportagens jornalísticas sobre projetos e iniciativas
 Confira abaixo videos e materias jornalisticas sobre projetos de Inteligência Artificial executados ou sobre ações de divulgação.
-
         
 
 Setembro, 2019 | Reportagem da Revista Exame
@@ -176,6 +131,3 @@ Leia Mais
 Dezembro, 2019 | Veículos autônomos
 Reportagem Época Negócios - Robô de entregas autônomas.
 Robô autônomo da Synkar, uma startup de alunos do Instituto de Informática da UFG, iniciará testes de entrega autônoma em 2020. Os testes devem acontecer em ambientes controlados, como shopping centers ou condomínios na cidade de São Paulo. A empresa também estudar oferecer o serviço em Campinas (SP). Composto por rodas e um compartimento para armazenar o pedido, o robô autônomo poderá ser usado para receber entregas em praças de alimentação e levá-las até o motorista, otimizando o tempo de entrega.
-
-Leia Mais
-Clique no link abaixo para visualizar os horários das disciplinas do semestre.
