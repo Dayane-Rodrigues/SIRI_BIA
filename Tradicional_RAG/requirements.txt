@@ -1,0 +1,7 @@
+qdrant-client
+fastembed
+ipython
+llama-index
+llama-index-vector-stores-qdrant
+llama-index-vector-stores-chroma
+llama-index-embeddings-fastembed
