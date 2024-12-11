@@ -5,3 +5,4 @@ llama-index
 llama-index-vector-stores-qdrant
 llama-index-vector-stores-chroma
 llama-index-embeddings-fastembed
+llama-index-embeddings-huggingface
