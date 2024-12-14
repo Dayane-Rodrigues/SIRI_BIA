@@ -18,6 +18,9 @@ NEO4J_USERNAME = "neo4j"
 NEO4J_PASSWORD = ""
 NEO4J_URL = ""
 NEO4J_DB = "neo4j"
+FOLDER_PATH = "/teamspace/studios/this_studio/SIRI_BIA/Dados"
+TEMPLATE_PATH = "/teamspace/studios/this_studio/SIRI_BIA/template.txt"
+PERSIST_DIR = "/teamspace/studios/this_studio/SIRI_BIA/Graph_RAG"
 
 # Configurar ambiente e OpenAI
 os.environ["OPENAI_API_KEY"] = OPENAI_API_KEY
@@ -55,10 +58,10 @@ index = PropertyGraphIndex.from_existing(
 
 # Cria o mecanismo de consulta
 query_engine = index.as_query_engine(
-    include_text=True,
+    include_text=False,
     response_mode="tree_summarize",
     embedding_mode="hybrid",
-    similarity_top_k=5
+    similarity_top_k=3
 )
 
 #nest_asyncio.apply()
@@ -66,7 +69,42 @@ query_engine = index.as_query_engine(
 # Faz a pergunta
 pergunta = "O curso de IA tem 36 matérias?"
 resposta = query_engine.query(pergunta)
+response = index.as_retriever(similarity_top_k=3).retrieve(pergunta)
+print(response)
+
+print('*******************************************************')
+
+#kg_rel_texts = [node.node.metadata.get('kg_rel_texts', None) for node in response if node.node.metadata.get('kg_rel_texts', None) is not None]
+#kg_rel_map = [node.node.metadata.get('kg_rel_map', None) for node in response if node.node.metadata.get('kg_rel_map', None) is not None]
 
 # Exibe a resposta
-print(f"Pergunta: {pergunta}")
-print(f"Resposta: {resposta}")
+#print(f"Pergunta: {pergunta}")
+#print(f"Resposta: {resposta}")
+#print(kg_rel_texts, kg_rel_map)
+
+# Inicializa listas para armazenar as informações
+retrieved_texts = []
+retrieved_scores = []
+retrieved_relations = []
+
+# Itera sobre o response para extrair os dados necessários
+for node_with_score in response:
+    node = node_with_score.node
+    retrieved_texts.append(node.text)  # Adiciona o texto do nó
+    retrieved_scores.append(node_with_score.score)  # Adiciona o score do nó
+    
+    # Extrai relações, se existirem, a partir dos metadados
+    relations = node.metadata.get('kg_rel_texts', None)
+    if relations:
+        retrieved_relations.append(relations)
+
+# Imprime as listas resultantes
+#print("Textos Recuperados:")
+#print(retrieved_texts)
+
+#print(len(retrieved_texts))
+
+#print("\nScores:")
+#print(retrieved_scores)
+
+

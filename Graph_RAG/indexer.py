@@ -26,7 +26,7 @@ class KnowledgeGraphIndexer:
         neo4j_database: str,
         model: str = "gpt-4o-mini",
         temperature: float = 0.0,
-        chunk_size: int = 512,
+        chunk_size: int = 256,
         max_triplets_per_chunk: int = 4,
         include_embeddings: bool = True,
     ):
@@ -107,7 +107,7 @@ class KnowledgeGraphIndexer:
                 embed_kg_nodes=True,
                 max_triplets_per_chunk=4,
                 include_embeddings = True,
-                chunk_size = 512,
+                chunk_size = 256,
                 )
 
     def persist_index(self, persist_dir: str):
@@ -133,7 +133,7 @@ class KnowledgeGraphIndexer:
         include_text: bool = False,
         response_mode: str = "tree_summarize",
         embedding_mode: str = "hybrid",
-        similarity_top_k: int = 5
+        similarity_top_k: int = 3
     ):
         """Cria o engine de consultas a partir do índice."""
         if self.index is None:
@@ -220,7 +220,7 @@ if __name__ == "__main__":
         neo4j_database=NEO4J_DB,
         model="gpt-4o-mini",
         temperature=0.0,
-        chunk_size=512,
+        chunk_size=256,
         max_triplets_per_chunk=4,
         include_embeddings=True
     )
