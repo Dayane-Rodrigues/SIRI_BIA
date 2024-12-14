@@ -1,0 +1,6 @@
+llama-index
+openai
+neo4j
+boto3
+ipython
+langchain_community
