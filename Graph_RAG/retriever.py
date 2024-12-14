@@ -98,6 +98,11 @@ for node_with_score in response:
     if relations:
         retrieved_relations.append(relations)
 
+retrieved_texts = retrieved_texts[-5:]  
+retrieved_scores = retrieved_scores[-5:]  
+#retrieved_relations = retrieved_relations[-5:]
+
+
 # Imprime as listas resultantes
 #print("Textos Recuperados:")
 #print(retrieved_texts)
@@ -106,5 +111,3 @@ for node_with_score in response:
 
 #print("\nScores:")
 #print(retrieved_scores)
-
-
