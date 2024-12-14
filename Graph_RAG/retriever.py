@@ -2,112 +2,66 @@ import os
 import logging
 import sys
 import openai
+from dotenv import load_dotenv
 from neo4j import GraphDatabase
-from llama_index.core import KnowledgeGraphIndex, StorageContext, Settings
+from llama_index.core import KnowledgeGraphIndex, Settings
 from llama_index.llms.openai import OpenAI
-from llama_index.graph_stores.neo4j import Neo4jGraphStore
-from llama_index.core import PropertyGraphIndex
-from llama_index.embeddings.openai import OpenAIEmbedding
-import nest_asyncio
 from llama_index.graph_stores.neo4j import Neo4jPropertyGraphStore
+from llama_index.embeddings.openai import OpenAIEmbedding
+from llama_index.core.indices import PropertyGraphIndex
 
+# Carregar variáveis de ambiente
+load_dotenv()
 
-# Configurações necessárias
-OPENAI_API_KEY = ""
-NEO4J_USERNAME = "neo4j"
-NEO4J_PASSWORD = ""
-NEO4J_URL = ""
-NEO4J_DB = "neo4j"
-FOLDER_PATH = "/teamspace/studios/this_studio/SIRI_BIA/Dados"
-TEMPLATE_PATH = "/teamspace/studios/this_studio/SIRI_BIA/template.txt"
-PERSIST_DIR = "/teamspace/studios/this_studio/SIRI_BIA/Graph_RAG"
+class Retriever:
+    def __init__(self):
+        # Configurações a partir do .env
+        self.openai_api_key = os.getenv("OPENAI_API_KEY")
+        self.neo4j_username = os.getenv("NEO4J_USERNAME")
+        self.neo4j_password = os.getenv("NEO4J_PASSWORD")
+        self.neo4j_url = os.getenv("NEO4J_URL")
+        self.neo4j_db = 'neo4j'
 
-# Configurar ambiente e OpenAI
-os.environ["OPENAI_API_KEY"] = OPENAI_API_KEY
-openai.api_key = OPENAI_API_KEY
-logging.basicConfig(stream=sys.stdout, level=logging.INFO)
+        # Configurar OpenAI
+        openai.api_key = self.openai_api_key
+        logging.basicConfig(stream=sys.stdout, level=logging.INFO)
 
-# Configurar LLM
-llm = OpenAI(
-    temperature=0, 
-    api_key=OPENAI_API_KEY,
-    model="gpt-4o-mini"
-)
-Settings.llm = llm
-#Settings.chunk_size = 512
+        # Configurar LLM
+        self.llm = OpenAI(
+            temperature=0, 
+            api_key=self.openai_api_key,
+            model="gpt-4o-mini"
+        )
+        Settings.llm = self.llm
 
-# Conecta ao Neo4j e cria o graph_store
-graph_store = Neo4jPropertyGraphStore(
-    username=NEO4J_USERNAME,
-    password=NEO4J_PASSWORD,
-    url=NEO4J_URL,
-    database=NEO4J_DB
-)
+        # Conectar ao Neo4j
+        self.graph_store = Neo4jPropertyGraphStore(
+            username=self.neo4j_username,
+            password=self.neo4j_password,
+            url=self.neo4j_url,
+            database=self.neo4j_db
+        )
 
-# Cria o storage_context a partir do graph_store
-#storage_context = StorageContext.from_defaults(graph_store=graph_store)
+        # Carregar índice
+        self.index = PropertyGraphIndex.from_existing(
+            property_graph_store=self.graph_store,
+            embed_kg_nodes=True,
+            llm=self.llm,
+            embed_model=OpenAIEmbedding(model="text-embedding-3-small")
+        )
 
-# Carrega o índice a partir do storage_context já existente
-# Supondo que o índice foi criado anteriormente e está armazenado no graph_store.
-index = PropertyGraphIndex.from_existing(
-    property_graph_store=graph_store,
-    embed_kg_nodes=True,
-    llm=llm,
-    embed_model= OpenAIEmbedding(model="text-embedding-3-small")
-)
+    def retrieve(self, question, top_k=5):
+        response = self.index.as_retriever(similarity_top_k=top_k).retrieve(question)
+        
+        retrieved_texts = [node.node.text for node in response][-top_k:]
+        retrieved_scores = [node.score for node in response][-top_k:]
 
-# Cria o mecanismo de consulta
-query_engine = index.as_query_engine(
-    include_text=False,
-    response_mode="tree_summarize",
-    embedding_mode="hybrid",
-    similarity_top_k=3
-)
+        return retrieved_texts, retrieved_scores
 
-#nest_asyncio.apply()
-
-# Faz a pergunta
-pergunta = "O curso de IA tem 36 matérias?"
-resposta = query_engine.query(pergunta)
-response = index.as_retriever(similarity_top_k=3).retrieve(pergunta)
-print(response)
-
-print('*******************************************************')
-
-#kg_rel_texts = [node.node.metadata.get('kg_rel_texts', None) for node in response if node.node.metadata.get('kg_rel_texts', None) is not None]
-#kg_rel_map = [node.node.metadata.get('kg_rel_map', None) for node in response if node.node.metadata.get('kg_rel_map', None) is not None]
-
-# Exibe a resposta
-#print(f"Pergunta: {pergunta}")
-#print(f"Resposta: {resposta}")
-#print(kg_rel_texts, kg_rel_map)
-
-# Inicializa listas para armazenar as informações
-retrieved_texts = []
-retrieved_scores = []
-retrieved_relations = []
-
-# Itera sobre o response para extrair os dados necessários
-for node_with_score in response:
-    node = node_with_score.node
-    retrieved_texts.append(node.text)  # Adiciona o texto do nó
-    retrieved_scores.append(node_with_score.score)  # Adiciona o score do nó
-    
-    # Extrai relações, se existirem, a partir dos metadados
-    relations = node.metadata.get('kg_rel_texts', None)
-    if relations:
-        retrieved_relations.append(relations)
-
-retrieved_texts = retrieved_texts[-5:]  
-retrieved_scores = retrieved_scores[-5:]  
-#retrieved_relations = retrieved_relations[-5:]
-
-
-# Imprime as listas resultantes
-#print("Textos Recuperados:")
-#print(retrieved_texts)
-
-#print(len(retrieved_texts))
-
-#print("\nScores:")
-#print(retrieved_scores)
+# Exemplo de uso
+if __name__ == "__main__":
+    retriever = Retriever()
+    question = "O curso de IA tem 36 matérias?"
+    texts, scores = retriever.retrieve(question)
+    print("Textos Recuperados:", texts)
+    print("Scores:", scores)

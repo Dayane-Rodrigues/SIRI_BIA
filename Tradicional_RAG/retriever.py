@@ -46,6 +46,16 @@ class Retriever_Generation:
             template = file.read()
             return template
 
+    def retrieve(self, question: str):
+        response = self.index.as_retriever(similarity_top_k=5).retrieve(question)
+        
+        # Extraindo textos e scores
+        retrieved_texts = [node.node.text for node in response]
+        scores = [node.score for node in response]
+        
+        return retrieved_texts, scores
+
+
     def ask_question(self, question: str):
         response = self.index.as_retriever(similarity_top_k=3).retrieve(question)
         retrieved_texts = [node.node.text for node in response]

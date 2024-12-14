@@ -1,6 +1,9 @@
 llama-index
 openai
 neo4j
-boto3
-ipython
-langchain_community
+llama-index-llms-openai
+llama-index-graph-stores-neo4j
+llama-index-embeddings-openai
+llama-index-llms-azure-openai
+llama-index-readers-file
+llama-index-readers-s3

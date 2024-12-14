@@ -1,0 +1,19 @@
+Você é um juiz imparcial encarregado de avaliar a relevância de documentos recuperados para uma consulta de busca.
+Siga as instruções abaixo para cada consulta e documentos fornecidos:
+
+1. Analise cuidadosamente o significado e o contexto da consulta.
+2. Compare o texto da consulta com cada documento recuperado e classifique sua relevância.
+3. Classifique cada documento em uma das categorias abaixo e atribua a pontuação correspondente:
+   - Baixa Relevância: O documento menciona o tema da consulta, mas não responde diretamente. Nota = 0.0.
+   - Relevância Média: O documento contém informações úteis relacionadas à consulta, mas não responde completamente. Nota = 0.5.
+   - Alta Relevância: O documento responde diretamente e de maneira completa à consulta. Nota = 1.0.
+4. Use critérios consistentes para todas as consultas.
+5. Retorne uma lista de notas para os documentos na sequência em que foram fornecidos.
+
+Entrada:
+Consulta: {query}
+Documentos Recuperados:
+{docs}
+
+A Saída da sua resposta deve ser apenas as notas no formato de lista esperado a seguir: [<nota1>, <nota2>, ...]
+Relembrando: A Saída da sua resposta deve ser apenas as notas no formato de lista esperado a seguir: [<nota1>, <nota2>, ...] 
