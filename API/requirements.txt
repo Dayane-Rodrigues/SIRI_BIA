@@ -1,7 +1,0 @@
-fastapi
-uvicorn
-qdrant-client
-openai
-llama-index
-python-dotenv
-llama-index-vector-stores-qdrant
